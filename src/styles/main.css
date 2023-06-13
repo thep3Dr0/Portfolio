@@ -1,0 +1,180 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100%;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+main {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-content {
+  max-height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+aside {
+  width: 13rem;
+  right: -13rem;
+  height: 100%;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  transition: transform 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: #242424 1.5px solid;
+}
+
+.open {
+  transform: translateX(-100%);
+}
+
+.aside-toggle {
+  aspect-ratio: 1/1;
+}
+
+.theme-checkbox {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme-icon {
+  max-height: 70%;
+  margin: 0 auto;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(165, 86, 240);
+}
+
+.nav-content {
+  width: 100%;
+  gap: 5rem;
+}
+
+.nav-div {
+  width: 90%;
+  gap: 2rem;
+}
+
+.Default {
+  background-color: #242424;
+}
+
+.Pink {
+  background-color: #f7a399;
+}
+.Pink h1 {
+  color: #ef6351;
+}
+.Pink a {
+  background-color: #f38375;
+}
+
+.PINK {
+  --tomato: #ef6351ff;
+  --salmon: #f38375ff;
+  --melon: #f7a399ff;
+  --melon-2: #fbc3bcff;
+  --misty-rose: #ffe3e0ff;
+}
+
+/*
+PALETAS
+
+--columbia-blue: #c9daeaff;
+--fluorescent-cyan: #03f7ebff;
+--jungle-green: #00b295ff;
+--licorice: #191516ff;
+--amaranth-purple: #ab2346ff;
+
+
+ /* 
+  orage web: FCA311
+  Platinum: E5E5E5
+  black: 000 
+  white:fff
+
+
+  background-color: #14213d;
+*/
+
+/*# sourceMappingURL=main.css.map */
